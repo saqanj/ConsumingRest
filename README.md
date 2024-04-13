@@ -48,7 +48,7 @@ Follow these commands sequentially on the same terminal as Step 2:
 docker image build -t name/consumingrest .
 ```
 ```bash
-docker push -t name/consumingrest
+docker push name/consumingrest
 ```
 ```bash
 kubectl run consumingrest --image=name/consumingrest --env="quoters_base_url=http://quoters:8080"
