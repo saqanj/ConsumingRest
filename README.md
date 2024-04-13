@@ -43,7 +43,7 @@ java -jar CallingTutorial-0.0.1-SNAPSHOT.jar
 ```
 You will now be able to see the four REST calls on your terminal from this communication service. We will now show you how to use this communication service as a container on kubernetes. To terminate this command, simply hold CTRL-C. 
 ### 3. Run the Communication Service on a Container on K8's!
-Follow these commands sequentially on the same terminal as Step 2:
+These commands will allow the Communication Service to run on a container on K8's, and the final logs command will show you the same output that was shown in Step 2 upon executing the jar file. Follow these commands sequentially on the same terminal as Step 2 (Be sure to replace name with your DockerHub name!):
 ```bash
 cd ..
 ```
@@ -62,4 +62,3 @@ kubectl run consumingrest --image=name/consumingrest --env="quoters_base_url=htt
 ```bash
 kubectl logs consumingrest
 ```
-Be sure to replace name with your DockerHub name!
