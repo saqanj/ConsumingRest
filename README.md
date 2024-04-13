@@ -31,7 +31,13 @@ Execute a Gradle Build on a seperate terminal in the directory containing the cl
 ```bash
 ./gradlew build
 ```
-This will generate a new/updated JAR file and compile the code. You can now access the REST calls from the previous links programmatically using the following command in the same directory as before:
+This will generate a new/updated JAR file and compile the code. You can now access the REST calls from the previous links programmatically using the followings:
+```bash
+cd build
+```
+```bash
+cd libs
+```
 ```bash
 java -jar CallingTutorial-0.0.1-SNAPSHOT.jar
 ```
