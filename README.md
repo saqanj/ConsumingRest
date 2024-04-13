@@ -22,9 +22,9 @@ kubectl port-forward service/quoters 8080:8080
 ```
 You can now view the following localhost links to see the REST calls at work:
 1. [Random](http://localhost:8080/api/random) This is for generating a random quote.
-2. [API1](http://localhost:8080/api1) This is for accessing the first API.
-3. [API2](http://localhost:8080/api2) This is for accessing the second API.
-4. [API3](http://localhost:8080/api3) This is for accessing the third API.
+2. [API1](http://localhost:8080/api/1) This is for accessing the first API.
+3. [API2](http://localhost:8080/api/2) This is for accessing the second API.
+4. [API3](http://localhost:8080/api/3) This is for accessing the third API.
 
 ### 2. Execute a Gradle Build.
 Execute a Gradle Build on a seperate terminal in the directory containing the cloned github repository using the following command:
