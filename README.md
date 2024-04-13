@@ -1,6 +1,6 @@
 # Consuming Restful Microservices Tutorial
 ## Introduction
-This is a simple tutorial for how one can consume restful microservices programmatically as opposed to curling or via a SwaggerUI, with a readily provided Communication Service in the repository. This tutorial is completed using the Spring Framework, Java, and Gradle for build/testing. To begin the tutorial, please clone this repository using the following command:
+This is a simple tutorial for how one can consume restful microservices programmatically on Kubernetes as opposed to curling or via a SwaggerUI, with a readily provided Communication Service in the repository copied from this [Spring Article](https://spring.io/guides/gs/consuming-rest#scratch). This tutorial is completed using the Spring Framework, Java, and Gradle for build/testing. To begin the tutorial, please clone this repository using the following command:
 ```bash
 git clone https://github.com/saqanj/ConsumingRest.git
 ```
