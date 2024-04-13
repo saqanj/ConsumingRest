@@ -45,6 +45,12 @@ You will now be able to see the four REST calls on your terminal from this commu
 ### 3. Run the Communication Service on a Container on K8's!
 Follow these commands sequentially on the same terminal as Step 2:
 ```bash
+cd ..
+```
+```bash
+cd ..
+```
+```bash
 docker image build -t name/consumingrest .
 ```
 ```bash
