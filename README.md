@@ -20,3 +20,15 @@ Be sure to run the following command and leave the terminal running to proceed w
 ```bash
 kubectl port-forward service/quoters 8080:8080
 ```
+You can now view the following localhost links to see the REST calls at work:
+[Random](http://localhost:8080/api/random) This is for generating a random quote.
+[API1](http://localhost:8080/api1) This is for accessing the first API.
+[API2](http://localhost:8080/api2) This is for accessing the second API.
+[API3](http://localhost:8080/api3) This is for accessing the third API.
+
+### 2. Execute a Gradle Build.
+Execute a Gradle Build using the following command:
+```bash
+./gradlew build
+```
+This will generate a new JAR file and compile the code. Before we proceed, you can 
