@@ -4,7 +4,7 @@ This is a simple tutorial for how one can consume restful microservices programm
 ```bash
 git clone https://github.com/saqanj/ConsumingRest.git
 ```
-## Further Tutorial Steps:
+## Tutorial Steps:
 ### 1. 
 For this tutorial, we will be using the Spring's Quoters Microservice observable at the following link: https://github.com/spring-guides/quoters as our source of REST resources. Kubernetes functionality is provided using the following sequentially on a terminal on your local machine:
 ```bash
