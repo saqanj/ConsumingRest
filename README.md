@@ -27,7 +27,7 @@ You can now view the following localhost links to see the REST calls at work:
 4. [API3](http://localhost:8080/api/3) This is for accessing the third quotation.
 
 ### 2. Execute a Gradle Build.
-Execute a Gradle Build on a seperate terminal in the directory containing the cloned github repository using the following command:
+Execute a Gradle Build on a seperate terminal inside the cloned github repository using the following command:
 ```bash
 ./gradlew build
 ```
