@@ -31,7 +31,7 @@ Execute a Gradle Build on a seperate terminal inside the cloned github repositor
 ```bash
 ./gradlew build
 ```
-This will generate a new/updated JAR file and compile the code. You can now access the REST calls from the previous links programmatically using the followings:
+This will generate a new/updated JAR file and compile the code. You can now access the REST calls from the previous links programmatically using the following:
 ```bash
 cd build
 ```
