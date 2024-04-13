@@ -6,7 +6,7 @@ git clone https://github.com/saqanj/ConsumingRest.git
 ```
 ## Tutorial Steps:
 ### 1. Run RESTful Service via Kubernetes
-For this tutorial, we will be using the Spring's Quoters Microservice observable at the following link: https://github.com/spring-guides/quoters as our source of REST resources. Kubernetes functionality is provided using the following sequentially on a terminal on your local machine:
+For this tutorial, we will be using the Spring's Quoters Microservice observable at the following link: https://github.com/spring-guides/quoters as our source of REST resources. Kubernetes functionality is provided using the following commands sequentially on a terminal on your local machine:
 ```bash
 kubectl run quoters --image=javajon/quoters:1.0.0 --port=8080
 ```
