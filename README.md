@@ -27,8 +27,27 @@ You can now view the following localhost links to see the REST calls at work:
 4. [API3](http://localhost:8080/api3) This is for accessing the third API.
 
 ### 2. Execute a Gradle Build.
-Execute a Gradle Build using the following command:
+Execute a Gradle Build on a seperate terminal in the directory containing the cloned github repository using the following command:
 ```bash
 ./gradlew build
 ```
-This will generate a new JAR file and compile the code. Before we proceed, you can 
+This will generate a new/updated JAR file and compile the code. You can now access the REST calls from the previous links programmatically using the following command in the same directory as before:
+```bash
+java -jar CallingTutorial-0.0.1-SNAPSHOT.jar
+```
+To terminate this command, simply hold CTRL-C. 
+### 3. Run the Communication Service on a Container on K8's!
+Follow these commands sequentially in the same directory from Step 2:
+```bash
+docker image build -t name/consumingrest .
+```
+```bash
+docker push -t name/consumingrest
+```
+```bash
+kubectl run consumingrest --image=name/consumingrest --env="quoters_base_url=http://quoters:8080"
+```
+```bash
+kubectl logs consumingrest
+```
+Be sure to replace name with your DockerHub name!
