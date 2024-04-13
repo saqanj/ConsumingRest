@@ -43,7 +43,7 @@ java -jar CallingTutorial-0.0.1-SNAPSHOT.jar
 ```
 You will now be able to see the four REST calls on your terminal from this communication service. We will now show you how to use this communication service as a container on kubernetes. To terminate this command, simply hold CTRL-C. 
 ### 3. Run the Communication Service on a Container on K8's!
-Follow these commands sequentially in the same directory from Step 2:
+Follow these commands sequentially on the same terminal as Step 2:
 ```bash
 docker image build -t name/consumingrest .
 ```
